@@ -1,0 +1,24 @@
+<import src="../tpl/list/list.wxml"/>
+<view class='container'>
+  <view class='main'>
+    <view class='search'>
+
+      <view class='search-icon'>
+        <icon type='search' size='15' style=' margin: auto 30rpx;'></icon>
+      </view>
+      <input value='{{content}}' type='text' class='input' placeholder='请输入搜索内容' confirm-type="search" bindinput='bindInputContent' bindconfirm='bindConfirm'> </input>
+      <view class='clear-icon'>
+        <icon type='clear' size='20' hidden='{{!isShowClear}}' catchtap='onClearTap' style='margin: auto 30rpx;'></icon>
+      </view>
+    </view>
+
+    <!-- <view class='null' hidden='{{!isShowClear}}'>
+      <image src='../../image/null.png'></image>
+      <text>找不到对应的内容</text>
+    </view> -->
+
+    <view class='all-college'>
+      <template is="list" data="{{listContent}}" />
+    </view>
+  </view>
+</view>

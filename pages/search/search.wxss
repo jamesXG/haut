@@ -1,0 +1,64 @@
+@import "../tpl/list/list.wxss";
+
+/* .container {
+  width: 100%;
+   height: 100%; 
+} */
+
+.search {
+  width: 95%;
+  height: 72rpx;
+  /* margin: 30rpx auto; */
+  background-color: #eee;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  color: #353535;
+  font-size: 11pt;
+  margin: 20rpx auto 0rpx auto;
+}
+
+/* .search-icon, .clear-icon {
+  margin: auto 30rpx;
+} */
+
+/* .input {
+  width: 500rpx;
+   margin: auto; 
+} */
+
+/* .text {
+  width: 80%;
+} */
+
+/* .main {
+  width: 100%; 
+   height: 100%; 
+   display: flex;
+  flex-direction: column;  
+} */
+
+/* .null {
+  width: 500rpx;
+  height: 500rpx;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+} */
+
+/* .null image {
+  width: 300rpx;
+  height: 300rpx;
+  margin: -60rpx auto;
+} */
+
+/* .null text {
+  color: #888;
+  margin: 80rpx auto;
+} */
+
+.all-college {
+  width: 100%;
+  margin: 80rpx auto;
+}
+

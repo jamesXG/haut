@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/faculty/faculty"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#1F5185",
+    "navigationBarTitleText": "河南工业大学",
+    "navigationBarTextStyle": "white"
+  }
+}

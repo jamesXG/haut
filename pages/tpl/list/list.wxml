@@ -1,0 +1,7 @@
+<template name="list">
+  <view class='college' wx:for="{{listContent}}" wx:key="{{item.id}}" data-id='{{item.id}}'>
+    <image class='list-img' src='{{item.img_url}}'></image>
+    <text>{{item.name}}</text>
+    <image src='../../image/search.png' class='college-navigation'></image>
+  </view>
+</template>

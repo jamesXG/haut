@@ -1,0 +1,25 @@
+<import src="../tpl/list/list" />
+<view class='container'>
+  <view class='main'>
+    <view class='scroll-main'>
+      <scroll-view class='scroll' scroll-x="ture">
+        <view class="scroll-item" wx:for="{{sortList}}" data-id='{{item.id}}' wx:key="{{item.id}}" catchtap='onSortTap'>
+          <text>{{item.name}}</text>
+        </view>
+      </scroll-view>
+    </view>
+    <view class='map-main'>
+      <map id='indexMap' class='map' longitude='{{lonLocation}}' latitude='{{latLocation}}' scale='{{scale}}' markers='{{markers}}' bindmarkertap='onDetail' bindcontroltap='onControlTap' controls='{{controls}}'>
+      </map>
+    </view>
+    <view class='list'>
+      <view class='list-head'>
+        <text>共有5个点位</text>
+        <image src='../../image/icon/jiantou.png'></image>
+      </view>
+      <view class='list-main'>
+        <template is="list" data="{{listContent}}" />
+      </view>
+    </view>
+  </view>
+</view>

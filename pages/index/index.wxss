@@ -1,0 +1,71 @@
+@import "../tpl/list/list.wxss";
+
+.main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.map-main {
+  width: 100%;
+  height: 60%;
+}
+
+.map {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+}
+
+.scroll-main {
+  width: 100%;
+  height: 7%;
+  background: #1f5185;
+  font-size: 11pt;
+  display: flex;
+}
+
+.scroll {
+  width: 100%;
+  display: flex;
+  white-space: nowrap;
+  margin: auto;
+}
+
+.scroll-item {
+  display: inline-block;
+  margin: auto 20rpx;
+  color: white;
+}
+
+/*页面列表  */
+
+.list {
+  width: 100%;
+  height: 30%;
+}
+
+.list-head {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 15%;
+  border-bottom: 1rpx solid #eee;
+}
+
+.list-head > text {
+  font-size: 11pt;
+  color: #1f5185;
+  margin: auto 0
+}
+
+.list-head > image {
+  width: 50rpx;
+  height: 50rpx;
+  margin: auto 0
+}
+
+.list-main {
+  width: 100%;
+  height: 85%;
+}

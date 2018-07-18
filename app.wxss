@@ -1,0 +1,53 @@
+/**app.wxss**/
+.container {
+ position: absolute;
+ width:100%;
+ height: 100%;
+} 
+.search{
+  width: 95%;
+  height: 72rpx;
+  margin: 30rpx auto;
+  background: #eee;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  color: #353535;
+  font-size: 11pt;
+}
+.search-icon, .clear-icon {
+  margin: auto 30rpx;
+}
+
+.input{
+  width:500rpx;
+  margin: auto;
+
+}
+
+.text{
+  width: 80%;
+ 
+}
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column
+}
+.null{
+  width: 500rpx;
+  height: 500rpx;
+  display: flex;
+  margin: auto;
+  flex-direction: column
+}
+.null-img{
+  width: 300rpx;
+  height: 300rpx;
+  margin: -60rpx auto
+}
+.null-text{
+  color: #888;
+  margin: 80rpx auto
+}

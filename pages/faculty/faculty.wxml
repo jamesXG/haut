@@ -1,0 +1,14 @@
+<view class='container'>
+  <view class='main'>
+    <view class='header'>
+      <image src='{{pointInfo.image.url}}'></image>
+    </view>
+    <view class='medium'>
+      <text>{{pointInfo.name}}</text>
+      <image src='../../image/search.png'></image>
+    </view>
+    <view class='text'>
+      <text>{{pointInfo.detail}}</text>
+    </view>
+  </view>
+</view>

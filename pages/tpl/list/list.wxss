@@ -1,0 +1,27 @@
+.college {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 30rpx 30rpx 0 30rpx; 
+}
+.college:last-of-type{
+  margin-bottom: 0 
+}
+.list-img {
+  width: 240rpx;
+  height: 130rpx;
+  border-radius: 10rpx;
+}
+
+.college text {
+  width: 350rpx;
+  font-size: 13pt;
+  font-family: 楷体;
+  margin: auto 10rpx auto 10rpx;
+}
+
+.college-navigation {
+  width: 70rpx;
+  height: 70rpx;
+  margin: auto
+}
